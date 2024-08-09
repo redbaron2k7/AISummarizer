@@ -45,7 +45,7 @@ const summaries = new Map<string, (summary: string) => void>();
 
 async function summarizeMessage(content: string): Promise<string> {
     if (!aiSession) {
-        return "AI service is not available. [Click here to learn how to set it up](https://github.com/redbaron2k7/AISummarizer/tree/main?tab=readme-ov-file#enabling-windowai)";
+        return "AI service is not available. https://github.com/redbaron2k7/AISummarizer/tree/main?tab=readme-ov-file#enabling-windowai";
     }
 
     try {
