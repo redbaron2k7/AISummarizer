@@ -4,8 +4,8 @@
 The AI Summarizer plugin uses Chrome's local AI (window.ai) to summarize Discord messages. It adds a "Summarize" button to messages, which when clicked, generates a concise summary of the message content.
 
 ## Disclaimer
-This uses a local API so no network requests are made from this.
-This plugin only works on the web currently with a chrome dev browser.
+1. This uses a local API so no network requests are made from this.
+2. This plugin **only works on chrome browsers** with the correct flags available.
 
 ## How It Works
 1. The plugin integrates with Chrome's local AI API (window.ai).
