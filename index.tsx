@@ -78,7 +78,7 @@ const SummaryAccessory: React.FC<{ message: Message; }> = ({ message }) => {
 
     useEffect(() => {
         summaries.set(message.id, setSummary);
-        return () => void summaries.delete(message.id);
+        return () => summaries.delete(message.id);
     }, [message.id]);
 
     if (!summary) return null;
