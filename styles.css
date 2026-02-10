@@ -1,24 +1,24 @@
 .vc-ai-summarizer-accessory {
-    color: var(--text-muted);
-    margin-top: 0.5em;
-    font-style: italic;
-    font-weight: 400;
+  color: var(--text-muted);
+  margin-top: 0.5em;
+  font-style: italic;
+  font-weight: 400;
 }
 
 .vc-ai-summarizer-accessory svg {
-    margin-right: 0.25em;
+  margin-right: 0.25em;
 }
 
 .vc-ai-summarizer-dismiss {
-    all: unset;
-    cursor: pointer;
-    color: var(--text-link);
+  all: unset;
+  cursor: pointer;
+  color: var(--text-link);
 }
 
 .vc-ai-summarizer-dismiss:is(:hover, :focus) {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .vc-ai-summarizer-icon {
-    scale: 1.085;
+  scale: 1.085;
 }
